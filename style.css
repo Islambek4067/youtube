@@ -526,3 +526,66 @@ body{
     cursor:pointer;
   }
 
+  #zx9-account-panel-root {
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  font-family: Arial, sans-serif;
+  z-index: 99999;
+}
+
+.zx9-account-panel-card {
+  width: 300px;
+  background: #1f1f1f;
+  color: #fff;
+  border-radius: 14px;
+  padding: 14px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.zx9-profile-row {
+  display: flex;
+  gap: 12px;
+  padding: 10px 16px;
+  align-items: center;
+}
+
+.zx9-avatar-img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.zx9-profile-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.zx9-profile-handle {
+  font-size: 13px;
+  color: #aaa;
+}
+
+.zx9-channel-link {
+  font-size: 13px;
+  color: #3ea6ff;
+  cursor: pointer;
+}
+
+.zx9-divider {
+  height: 1px;
+  background: #333;
+  margin: 8px 0;
+}
+
+.zx9-menu-item {
+  padding: 12px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.zx9-menu-item:hover {
+  background: #2a2a2a;
+}
+
